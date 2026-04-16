@@ -1,3 +1,0 @@
-0 Trinkflasche
-1 Schere
-2 Federtasche

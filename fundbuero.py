@@ -22,7 +22,7 @@ uploaded_file = st.file_uploader("Bild auswählen...", type=["jpg", "jpeg", "png
 if uploaded_file is not None:
     # Bild öffnen
     image = Image.open(uploaded_file).convert("RGB")
-    st.image(image, caption='Hochgeladenes Bild', use_container_width=True)
+    st.image(image, caption='Hochgeladenes Bild', use_column_width=True)
     
     # Vorbereitung für das Modell
     size = (224, 224)
